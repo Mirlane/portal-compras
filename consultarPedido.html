@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Consultar Pedido </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+
+    <style media="screen">
+      .img1{
+        padding-left: 12%;
+      }
+      .camposObrigatórios{
+        margin: 0 18px;
+      }
+
+    </style>
+    </head>
+    <body>
+      <div class="img1">
+        <h1 align="center"> Espaço para imagem</h1>
+      </div>
+      <div class="barra">
+        <ul class="breadcrumb">
+          <li><a href="#"> Início </a> <span class="divider">/</span></li>
+          <li><a href="#"> Pedido </a> <span class="divider">/</span></li>
+          <li class="active"> Consultar Pedido </li>
+        </ul>
+      </div>
+      <fieldset>
+        <legend> Consultar Pedido </legend>
+        <div class="form">
+          <form class="" action="index.html" method="post">
+            <select class="escolherCat" name="">
+              <option value=""> Todos </option>
+              <option value=""> Em Aberto </option>
+            </select>
+            <input type="text" name="" value="">
+            <button type="button" name="button"> Pesquisar </button>
+          </form>
+        </div>
+      </fieldset>
+      <table class="table table-hover">
+        <tbody>
+          <tr>
+            <td> Produtos </td>
+            <td>Prazo</td>
+            <td>Categoria</td>
+            <td>Estado</td>
+            <td> Opções</td>
+          </tr>
+          <tr>
+            <td> 2 mesas de escritório </td>
+            <td> 08/01/2018 </td>
+            <td> Em Aberto </td>
+            <td>Material de Escritório</td>
+            <td> <div class="container-fluid">
+        	<div class="row">
+        		<div class="col-md-12">
+        			 <a id="modal-766383" href="#modal-container-766383" role="button" class="btn" data-toggle="modal"> Proposta </a>
+
+        			<div class="modal fade" id="modal-container-766383" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        				<div class="modal-dialog">
+        					<div class="modal-content">
+        						<div class="modal-header">
+
+        							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+
+        							<h4 class="modal-title" id="myModalLabel">
+        								Modal title
+        							</h4>
+        						</div>
+        						<div class="modal-body">
+        							...
+        						</div>
+        						<div class="modal-footer">
+
+        							<button type="button" class="btn btn-default" data-dismiss="modal">
+        								Close
+        							</button>
+        							<button type="button" class="btn btn-primary">
+        								Save changes
+        							</button>
+        						</div>
+        					</div>
+
+        				</div>
+
+        			</div>
+
+        		</div>
+        	</div>
+        </div> </td>
+          </tr>
+        </tbody>
+
+      </table>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
